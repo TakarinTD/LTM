@@ -45,6 +45,9 @@
     <ClCompile Include="Manage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="creatdatabase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Friend.h">

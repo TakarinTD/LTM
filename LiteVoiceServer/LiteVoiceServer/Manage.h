@@ -11,7 +11,7 @@ public:
 	static vector<User> users;
 	static vector<Group> groups;
 	static MYSQL* conn;
-	void in();
+	
 	Manage();
 };
 

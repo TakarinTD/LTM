@@ -1,2 +1,11 @@
 ﻿  connectdatabase_user.cpp
-  LiteVoiceServer.vcxproj -> E:\LiteVoiceServer\x64\Debug\LiteVoiceServer.exe
+  creatdatabase.cpp
+c:\program files\mysql\connector.c++ 1.1\include\cppconn\sqlstring.h(39): warning C4251: 'sql::SQLString::realStr': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sql::SQLString'
+  c:\program files (x86)\microsoft visual studio\2017\wdexpress\vc\tools\msvc\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\program files\mysql\connector.c++ 1.1\include\cppconn\exception.h(61): warning C4251: 'sql::SQLException::sql_state': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sql::SQLException'
+  c:\program files (x86)\microsoft visual studio\2017\wdexpress\vc\tools\msvc\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\program files\mysql\connector.c++ 1.1\include\cppconn\exception.h(145): warning C4251: 'sql::SQLUnsupportedOptionException::option': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'sql::SQLUnsupportedOptionException'
+  c:\program files (x86)\microsoft visual studio\2017\wdexpress\vc\tools\msvc\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+e:\github\game\ltm\litevoiceserver\litevoiceserver\creatdatabase.cpp(13): warning C4101: 'res': unreferenced local variable
+  Generating Code...
+  LiteVoiceServer.vcxproj -> E:\GitHub\game\LTM\LiteVoiceServer\x64\Debug\LiteVoiceServer.exe

@@ -164,6 +164,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="connectdatabase_user.cpp" />
+    <ClCompile Include="creatdatabase.cpp" />
     <ClCompile Include="Friend.cpp" />
     <ClCompile Include="Group.cpp" />
     <ClCompile Include="LiteVoiceServer.cpp" />
