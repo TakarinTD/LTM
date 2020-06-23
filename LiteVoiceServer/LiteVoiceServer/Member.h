@@ -12,4 +12,5 @@ public:
 	vector <Message> messages;
 	char* name;
 	char* avaPath;
+	Member();
 };

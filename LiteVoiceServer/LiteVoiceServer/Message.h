@@ -1,10 +1,11 @@
 #pragma once
-#include "Member.h"
+
 
 class Message
 {
 public:
+	char* send;
+	char* receive;
 	char* content;
 	char* time;
-	char* attach;
 };

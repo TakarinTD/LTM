@@ -1,11 +1,18 @@
 ﻿  connectdatabase_user.cpp
+e:\github\game\ltm\litevoiceserver\litevoiceserver\connectdatabase_user.cpp(7): warning C4081: expected 'identifier'; found '('
   creatdatabase.cpp
-c:\program files\mysql\connector.c++ 1.1\include\cppconn\sqlstring.h(39): warning C4251: 'sql::SQLString::realStr': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sql::SQLString'
-  c:\program files (x86)\microsoft visual studio\2017\wdexpress\vc\tools\msvc\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
-c:\program files\mysql\connector.c++ 1.1\include\cppconn\exception.h(61): warning C4251: 'sql::SQLException::sql_state': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sql::SQLException'
-  c:\program files (x86)\microsoft visual studio\2017\wdexpress\vc\tools\msvc\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
-c:\program files\mysql\connector.c++ 1.1\include\cppconn\exception.h(145): warning C4251: 'sql::SQLUnsupportedOptionException::option': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'sql::SQLUnsupportedOptionException'
-  c:\program files (x86)\microsoft visual studio\2017\wdexpress\vc\tools\msvc\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
-e:\github\game\ltm\litevoiceserver\litevoiceserver\creatdatabase.cpp(13): warning C4101: 'res': unreferenced local variable
+  Friend.cpp
+  Group.cpp
+  LiteVoiceServer.cpp
+  Manage.cpp
+e:\github\game\ltm\litevoiceserver\litevoiceserver\manage.cpp(120): warning C4311: 'type cast': pointer truncation from 'char *' to 'int'
+e:\github\game\ltm\litevoiceserver\litevoiceserver\manage.cpp(120): warning C4302: 'type cast': truncation from 'char *' to 'int'
+  Member.cpp
+  Message.cpp
+  User.cpp
   Generating Code...
-  LiteVoiceServer.vcxproj -> E:\GitHub\game\LTM\LiteVoiceServer\x64\Debug\LiteVoiceServer.exe
+Manage.obj : error LNK2001: unresolved external symbol "public: static class std::vector<class Message,class std::allocator<class Message> > Manage::messages" (?messages@Manage@@2V?$vector@VMessage@@V?$allocator@VMessage@@@std@@@std@@A)
+Manage.obj : error LNK2001: unresolved external symbol "public: static class std::vector<class MemberGroup,class std::allocator<class MemberGroup> > Manage::Mgs" (?Mgs@Manage@@2V?$vector@VMemberGroup@@V?$allocator@VMemberGroup@@@std@@@std@@A)
+Manage.obj : error LNK2001: unresolved external symbol "public: static class std::vector<class MemberGroup,class std::allocator<class MemberGroup> > Manage::Gms" (?Gms@Manage@@2V?$vector@VMemberGroup@@V?$allocator@VMemberGroup@@@std@@@std@@A)
+Manage.obj : error LNK2001: unresolved external symbol "public: static class std::vector<class Friend,class std::allocator<class Friend> > Manage::friends" (?friends@Manage@@2V?$vector@VFriend@@V?$allocator@VFriend@@@std@@@std@@A)
+E:\GitHub\game\LTM\LiteVoiceServer\x64\Debug\LiteVoiceServer.exe : fatal error LNK1120: 4 unresolved externals

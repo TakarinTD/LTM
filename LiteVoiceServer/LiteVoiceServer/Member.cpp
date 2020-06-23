@@ -1,1 +1,2 @@
-//#include "Member.h"
+#include "Member.h"
+Member::Member(){}
